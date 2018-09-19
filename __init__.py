@@ -13,7 +13,7 @@ fullDB = cursor.fetchall()
 
 # Import random to shuffle distro list
 import random
-random.shuffle(fullDB)
+#random.shuffle(fullDB)
 
 # empty array(s) waiting to be filled up corresponding to the list below
 # perfect, lts, fsfrating, customtweaks, secure, niche
@@ -66,6 +66,8 @@ def chooser():
                         # otherwise just add it into the list of final distros
                         else:
                             all[index].append(row)
+        for index in range(6):
+            random.shuffle(all[index])
         if (len(all[0]) != 0):
             isPerfect.append(1)
         if (all == [[], [], [], [], [], []]):
