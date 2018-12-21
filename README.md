@@ -1,4 +1,4 @@
-# LibreHunt (notice, deprecated, librehunt is newer and better (client side JS)
+# LibreHunt (notice, deprecated, use the newer JS client side version)
 
 My MYP personal project, a website to aid you on your libre/distro hunt!
 
